@@ -10,7 +10,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            MapView()
+                .frame(height:300)
+            SwiftUIView()
+                .offset(y: -130)
+                .padding(.bottom, -130)
+            VStack(alignment : .leading) {
+                Text("XRPW")
+                    .font(.title)
+                HStack {
+                    Text(/*@START_MENU_TOKEN@*/"Lulzsec"/*@END_MENU_TOKEN@*/)
+                        .font(.subheadline)
+                    
+                    Text("2011")
+                }
+            }
+            .padding()
+            Spacer()
+        }
     }
 }
 

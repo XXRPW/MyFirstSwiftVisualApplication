@@ -15,6 +15,8 @@
 		021C66E4238B47EC008370B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 021C66E2238B47EC008370B5 /* LaunchScreen.storyboard */; };
 		021C66EF238B47EC008370B5 /* LandMarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021C66EE238B47EC008370B5 /* LandMarksTests.swift */; };
 		021C66FA238B47EC008370B5 /* LandMarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021C66F9238B47EC008370B5 /* LandMarksUITests.swift */; };
+		0245A728238B7002003BE4A8 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0245A727238B7002003BE4A8 /* SwiftUIView.swift */; };
+		0245A72A238B7281003BE4A8 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0245A729238B7281003BE4A8 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		021C66F5238B47EC008370B5 /* LandMarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandMarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		021C66F9238B47EC008370B5 /* LandMarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMarksUITests.swift; sourceTree = "<group>"; };
 		021C66FB238B47EC008370B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0245A727238B7002003BE4A8 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		0245A729238B7281003BE4A8 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				021C66D7238B47EB008370B5 /* AppDelegate.swift */,
 				021C66D9238B47EB008370B5 /* SceneDelegate.swift */,
 				021C66DB238B47EB008370B5 /* ContentView.swift */,
+				0245A727238B7002003BE4A8 /* SwiftUIView.swift */,
+				0245A729238B7281003BE4A8 /* MapView.swift */,
 				021C66DD238B47EC008370B5 /* Assets.xcassets */,
 				021C66E2238B47EC008370B5 /* LaunchScreen.storyboard */,
 				021C66E5238B47EC008370B5 /* Info.plist */,
@@ -269,6 +275,8 @@
 			files = (
 				021C66D8238B47EB008370B5 /* AppDelegate.swift in Sources */,
 				021C66DA238B47EB008370B5 /* SceneDelegate.swift in Sources */,
+				0245A72A238B7281003BE4A8 /* MapView.swift in Sources */,
+				0245A728238B7002003BE4A8 /* SwiftUIView.swift in Sources */,
 				021C66DC238B47EB008370B5 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
